@@ -1,0 +1,35 @@
+{
+  "name": "full-stack-development",
+  "version": "1.0.0",
+  "description": "This is for practicing full stack web application apps",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "cd full-stack && npm start",
+    "dev": "concurrently \"nodemon index.js\" \"npm run client\""
+  },
+  "author": "Mohit sharma",
+  "license": "ISC",
+  "dependencies": {
+    "browserify-zlib": "^0.2.0",
+    "concurrently": "^7.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.4",
+    "node-fetch": "^3.2.0",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "react-router-dom": "^6.2.2",
+    "url": "^0.11.0",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21"
+  }
+}

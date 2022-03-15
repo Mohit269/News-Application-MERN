@@ -1,0 +1,36 @@
+.box {
+
+    max-width: 400px;
+      background: white;
+      text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px -5px black;
+    margin-left: 550px;
+    margin-top: 40px;
+    padding: 30px 30px 30px 30px;
+  }
+  .name{ margin-bottom: 10px;
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+  }
+  .email{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+  }
+  .password{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+  }
+  .success{
+    width: 40px;
+    height:40px;
+    margin-top: 10px;
+  }
